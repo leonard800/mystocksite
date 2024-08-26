@@ -35,9 +35,31 @@ const Header = () => {
                         >
                             Home
                         </Link>
+                        <Link
+                            href="/"
+                            className={`${
+                            pathname === "/"
+                                ? "text-white hover:text-black background-white font-bold"
+                                : "text-white hover:text-black background-white"
+                            }`}
+                        >
+                            Stock
+                        </Link>
+                        <Link
+                            href="/"
+                            className={`${
+                            pathname === "/"
+                                ? "text-white hover:text-black background-white font-bold"
+                                : "text-white hover:text-black background-white"
+                            }`}
+                        >
+                            News
+                        </Link>
                     </div>
                 </div>
             </div>
         </nav>
     )
 }
+
+export default Header;
