@@ -4,7 +4,7 @@ import { GetServerSideProps } from "next";
 
 {/*Generate a list of news from eodhd.com */}
 
-const NewsGrid = ({ news }) => {
+const NewsGrid = ({  }) => {
     return (
         <div> </div>
     )
